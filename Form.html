@@ -38,7 +38,7 @@ document.getElementById("dcForm").addEventListener("submit", function(e) {
         },
         body: JSON.stringify(payload)
     })
-    .then(() => alert("Verstuurd naar Discord!"))
+    .then(() => alert("We recieved you're request!"))
     .catch(err => alert("Error: " + err));
 });
 </script>
