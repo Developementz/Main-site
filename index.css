@@ -3,11 +3,11 @@ img {
 }
 .container {
   display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 10px;
+  grid-template-rows: auto auto auto;
+  padding: 0px;
 }
 .container div {
   text-align: center;
-  padding: 25px;
+  padding: 10px;
 }
 
